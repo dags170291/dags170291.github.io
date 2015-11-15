@@ -1,0 +1,23 @@
+doctype  html 
+html(lang="en") 
+   
+   //- head portion of HTML Doc contains meta tags, css links etc
+   include ./includes/head.jade
+
+   body
+    main
+      .home-wrap
+        
+        //- all sections 
+        include ./includes/header.jade
+        
+        .section-wrap
+          include ./includes/section-about.jade
+          include ./includes/section-mywork.jade
+          include ./includes/section-notes.jade
+          //- include ./includes/section-shoutouts.jade
+          include ./includes/section-findme.jade
+          include ./includes/footer.jade
+    include ./includes/mobile-header.jade
+    //- javascript 
+    include ./includes/js.jade

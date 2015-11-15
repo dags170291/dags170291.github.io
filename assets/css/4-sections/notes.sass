@@ -1,0 +1,85 @@
+section#notes
+  background:
+    image: url(/assets/images/notes.jpg)
+    position: center top
+    size: cover
+
+  .note-wrap
+    width: 920px
+    display: flex
+    margin: 75px auto
+    flex-direction: row
+
+
+    .notes-col1,
+    .notes-col2
+      width: 50%
+
+      h2
+        color: #fff
+        margin: 0
+        font-size: 6em
+
+        .red-text
+          color: #e74c3c
+
+      .notes-list
+        list-style: none
+        margin-bottom: 50px
+        padding: 0
+
+        li
+          margin-bottom: 40px
+
+          a
+            color: $white
+            font-size: 2em
+            border: 3px solid #fff
+            padding: 10px
+
+
+        .notes-col2 a
+          color: $white
+
+@media (max-width:768px)
+
+  section#notes
+    background:
+      image: url(/assets/images/notes.jpg)
+      position: center top
+      size: cover
+    // height: 450px
+
+    .note-wrap
+      width: 100%
+      display: flex
+      margin: auto
+      flex-direction: column
+
+      .notes-col1
+        width: 95%
+
+        h2
+          font-size: 4em
+          margin-left: 20px
+
+
+      .notes-col2
+        width: 85%
+        margin-left: 15%
+
+        // padding-left: 10%
+
+        .notes-list
+          list-style: none
+          margin: 50px auto 50px
+          padding: 0
+
+          li
+            margin-bottom: 40px
+
+            a
+              color: $white
+              font-size: 1.3em
+              border: 3px solid #fff
+              padding: 10px

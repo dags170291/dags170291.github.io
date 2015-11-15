@@ -1,0 +1,80 @@
+.about-col
+  max-width: 350px
+  margin: 0 580px 0 10px
+
+section#about
+  background:
+    image: url(/assets/images/hero_img.jpg)
+    position: 0
+    size: cover
+
+  h2
+    line-height: 74px
+
+    span
+      background:
+        color: rgba(0, 0 ,0, 0.7)
+      color: $white
+      font-weight: 700
+
+
+      .red-text
+        background:
+          color: rgba(0, 0 ,0, 0)
+        color: $alizarin
+
+      .reg-text
+        background:
+          color: rgba(0, 0 ,0, 0)
+        color: $white
+
+    h4
+      color: $black
+      font-weight: 700
+  p
+    text-align: left
+    font-weight: 300
+    line-height: 1.2em
+    color: #000
+    font-size: 1.3em
+
+  p:nth-child(3)
+    color: #fff
+    text-align: right
+    font-weight: 300
+    margin-bottom: 10px
+@media (max-width:1024px)
+  .about-col
+    max-width: 320px
+    margin: 20px 200px 0 20px
+
+  section#about
+    padding-top: 10px
+
+    h2
+      font-size: 4em
+      margin: 10px 0 20px 10px
+    p
+      margin-left: 10px
+      font-size: 0.85em
+      width: 90%
+      font-weight: bold
+
+    h4
+      width: 100%
+      font-size: 0.9em
+      font-weight: bold
+      margin-left: 40px
+      margin-top: 0
+
+
+@media (max-width:768px)
+  .about-col
+    margin-left: 5px
+    max-width: 350px
+
+  section#about
+    background:
+      image: url(/assets/images/hero_img_mobile.jpg)
+      position: center
+      size: cover

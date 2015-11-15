@@ -1,0 +1,238 @@
+.my-work-col
+  max-width: 920px
+  margin: 0 10px
+
+
+section#my-work
+  background:
+    image: url(/assets/images/dags-pattern.png)
+    repeat: no-repeat
+    size: cover
+    position: left top, right top
+    color: #2ECC71
+
+
+  h2
+    margin: 0 0 25px 0
+    text-align: center
+    color: #fff
+  h2
+    span
+      // background: #000
+      color: #e74c3c
+      font-weight: 700
+      margin: 0
+
+      // grid
+  .og-grid
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    align-content: center
+    list-style: none
+    margin: 20px auto
+    width: 100%
+    padding: 0
+
+  .og-grid li > a,
+  .og-grid li > a img
+    border: none
+    outline: none
+    display: block
+    position: relative
+    margin: 0px
+
+  .og-grid li
+    width: 25%
+    height: 50%
+    margin-bottom: -2px
+
+  .og-grid li a img
+    max-width: 100%
+
+
+  .og-grid li.og-expanded > a::after
+    top: auto
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+    border-bottom-color: rgba(231, 76, 60,1.0)
+    border-width: 15px
+    left: 50%
+    margin: -20px 0 0 -15px
+
+  .og-expander
+    position: absolute
+    background-color: #e74c3c
+    top: auto
+    right: 0
+    width: 100%
+    margin-top: 10px
+    text-align: left
+    z-index: 1
+
+  .og-expander-inner
+    padding: 50px 30px
+    height: 100%
+    background-color: #e74c3c
+    display: flex
+    flex-direction: row
+
+
+  .og-close
+    position: absolute
+    width: 25px
+    height: 25px
+    top: 15px
+    right: 15px
+    cursor: pointer
+    border-radius: 100%
+    background:
+      image: url("/assets/images/close.svg")
+      repeat: no-repeat
+      position: center
+      size: 10px 10px
+      color: $white
+
+  .og-fullimg,
+    float: left
+    width: 40%
+
+  .og-details
+    width: 50%
+    float: right
+    height: 100%
+    overflow: hidden
+    position: relative
+
+  .og-details
+    padding: 0 0px 0 20px
+
+
+  .og-fullimg
+    text-align: center
+
+
+  .og-fullimg img
+    display: inline-block
+    max-height: 100%
+    max-width: 100%
+    padding-top: 15px
+
+
+  .og-details h3
+    font-weight: 300
+    font-size: 52px
+    padding: 0px 0 10px
+    margin: 0
+    color: #fff
+
+
+  .og-details p
+    font-weight: 400
+    font-size: 16px
+    line-height: 22px
+    color: #eee
+
+
+  .og-details a
+    font-weight: 700
+    font-size: 0.75em
+    color: #eee
+    text-transform: uppercase
+    letter-spacing: 3px
+    padding: 10px 20px
+    border: 3px solid #eee
+    display: inline-block
+    margin: 30px 0 0
+    outline: none
+    opacity: 0.8
+    text-decoration: none
+
+
+  .og-details a::before
+    content: '\2192'
+    display: inline-block
+    margin-right: 10px
+
+
+  .og-details a:hover
+    /*border-color: #484848;
+    color: #484848
+    opacity: 1
+
+
+  .og-loading
+    width: 20px
+    height: 20px
+    border-radius: 50%
+    background-color: #282828
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc
+    position: absolute
+    top: 50%
+    left: 50%
+    margin: -25px 0 0 -25px
+    animation: loader 0.5s infinite ease-in-out both
+
+
+
+@media (max-width: 768px)
+
+  section#my-work
+    background:
+      image: url(/assets/images/dags-pattern.png)
+      repeat: no-repeat
+      position: center
+      color: #2ECC71
+
+    .og-grid
+      width: 95%
+
+      li
+        width: 50%
+
+    .og-expander-inner
+      padding: 50px 30px
+      height: 100%
+      background-color: #e74c3c
+      display: flex
+      flex-direction: column
+
+    .og-fullimg
+      clear: both
+      width: 100%
+
+    .og-details
+      clear: both
+      width: 100%
+      padding: 0
+      margin-top: 30px
+
+    .og-fullimg img
+      display: block
+      max-height: 60%
+      max-width: 80%
+      padding-top: 15px
+
+
+    .og-details h3
+      font-weight: 300
+      font-size: 2em
+      padding: 0px 0 10px
+      margin: 0
+      color: #fff
+
+
+    .og-details p
+      font-weight: 400
+      font-size: 0.8em
+      line-height: 22px
+      color: #eee
+
+
+    .og-details a
+      margin: 10px 25%
+      text-align: center

@@ -1,0 +1,99 @@
+.find-me-col
+  max-width: 700px
+  margin: 0 10px
+
+section#find-me
+  background:
+    image: url(/assets/images/social-pattern.png)
+    size: cover
+    position: center top
+    color: #2C3E50
+
+  h2
+    color: #fff
+    margin: 10px 0 20px 30px
+
+    .red-text
+      color: #e74c3c
+
+  h4
+    text-align: center
+    color: #9C9C9C
+    display: block
+
+  // #contact
+  //   display: flex
+  //   flex-direction: row
+  //   justify-content: center
+
+  #contact
+    h4
+      display: flex
+      justify-content: center
+      width: 100%
+
+  .social
+    width: 100%
+    margin: auto
+    padding: 0
+    display: flex
+    justify-content: center
+
+
+  .social li
+    list-style: none
+    margin: 5px
+    display: inline
+    height: 40px
+
+  .social li img
+    width: 40px
+    height: 40px
+
+  .mail
+    list-style: none
+    margin: 50px auto
+    width: 100%
+    text-align: center
+
+  .mail a
+    text-decoration: none
+    padding: 25px 30px
+    color: #fff
+    letter-spacing: 4px
+    font-size: 1.5em
+    text-align: center
+    border: #fff solid 4px
+    margin: 30px auto
+    font-weight: 700
+
+
+
+@media (max-width:768px)
+
+  .find-me-col
+    margin: auto
+
+  section#find-me
+    background:
+      image: url(/assets/images/social-pattern.png)
+      position: center top
+      size: cover
+
+    h2
+      margin-left: 30px
+      // font-size: 2em
+      text-align: left
+      letter-spacing: 3px
+
+    h4
+      font-size: 1.2em
+
+    .mail a
+      font-size: 1em
+
+    .social
+      li
+        img
+          width: 30px
+          height: 30px

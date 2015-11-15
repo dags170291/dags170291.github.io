@@ -1,0 +1,309 @@
+.shout-outs-col
+  max-width: 920px
+  margin: 0 10px
+
+section#shout-outs
+  background:
+    image: url(/assets/images/tri-watermark.png)
+    repeat: no-repeat
+    size: 100%
+    position: center top
+    color: #F1C40F
+  padding-bottom: 20px
+
+  h2
+    margin: 0 0 20px 0
+    // font-size: 1.5em
+    text-align: center
+    color: #fff
+  h2
+    span
+      // background: #000
+      color: #e74c3c
+      font-weight: 700
+      margin: 0
+
+
+
+  .cd-testimonials-wrapper
+    position: relative
+    width: 80%
+    // max-width: 768px
+    margin: 0 auto 30px
+    padding: 10px 40px 20px
+    z-index: 2
+
+    .cd-testimonials
+      margin: auto
+      padding: 0px
+      width: 100%
+      display: flex
+      flex-direction: row
+
+      .user-profile-photo
+        display: block
+        width: 100px
+        margin: 10px auto 30px
+        border-radius: 50%
+        border: rgba(40, 40, 40,0.8) solid 3px
+
+      li
+        text-align: center
+        width: 75%
+
+        p
+          background-image: url("/assets/images/quote.png"), url("/assets/images/quote-reverse.png")
+          background-position: top left,  bottom right
+          font-size: 1em
+          width: 50%
+          margin: 0 auto 20px
+          background-repeat: no-repeat
+          line-height: 20px
+          background-size: 75px 75px
+          padding: 5px 50px
+          color: $white
+          font-style: italic
+          text-align: center
+          font-weight: 500
+
+        .cd-author-info
+          display: inline
+          width: 100%
+          height: 40px
+          list-style: none
+          text-align: right
+
+          li
+            list-style: none
+            margin: 0
+            color: #282828
+            text-align: right
+            width: 90%
+            font-size: 0.85em
+
+    .flex-direction-nav li
+      position: absolute
+      height: 15%
+      width: 50px
+      top: 40%
+      /*vertical-align: middle;*/
+
+
+    .flex-direction-nav li:first-child
+      left: 0
+
+    .flex-direction-nav li:last-child
+      right: 0
+
+    .flex-direction-nav li a
+      display: block
+      height: 100%
+      width: 100%
+      overflow: hidden
+      text-indent: 100%
+      white-space: nowrap
+      transition: background-color 0.2s
+
+    .no-touch .flex-direction-nav li a:hover
+      color: $peterriver
+
+    .flex-direction-nav li a::before, .flex-direction-nav li a::after
+      /* left and right arrows in css only */
+      content: ''
+      position: absolute
+      left: 50%
+      top: 100%
+      width: 2px
+      height: 13px
+      background-color: $peterriver
+
+    .flex-direction-nav li a::before
+      transform: translateY(-35px) rotate(45deg)
+
+    .flex-direction-nav li a::after
+      transform: translateY(-27px) rotate(-45deg)
+
+    .flex-direction-nav li:last-child a::before
+      transform: translateY(-35px) rotate(-45deg)
+
+    .flex-direction-nav li:last-child a::after
+      transform: translateY(-27px) rotate(45deg)
+
+    .flex-direction-nav li a:hover::before, .flex-direction-nav li a:hover::after
+      background-color: $peterriver
+    .flex-direction-nav li a::before, .flex-direction-nav li a::after
+      background-color: $black
+      transition: background-color 0.2s
+
+  .cd-see-all
+    display: inline
+    vertical-align: middle
+    margin-right: 5px
+    transition: color, 0.2s
+
+    img
+      width: 60px
+      height: 60px
+      vertical-align: middle
+      transition: all 0.3s linear
+      border-radius: 50%
+
+
+    img:hover
+      opacity: 0.6
+
+  .cd-testimonials-all
+    position: fixed
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    background-color: #fff
+    z-index: 2500
+    visibility: hidden
+    opacity: 0
+    transition: opacity .3s 0s, visibility 0s .3s
+
+  .cd-testimonials-all .cd-testimonials-all-wrapper
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    overflow: auto
+
+  .cd-testimonials-all .cd-testimonials-all-wrapper > ul
+    width: 95%
+    max-width: 1170px
+    margin: 70px auto
+
+  .cd-testimonials-all .cd-testimonials-all-wrapper > ul::after
+    clear: both
+    content: ""
+    display: table
+
+  .cd-testimonials-all .cd-testimonials-item
+    margin-bottom: 20px
+    width: 30%
+    opacity: 0
+    transition: transform .3s, opacity .3s
+
+  .cd-testimonials-all p::after
+    /* creating the triangle in css */
+    content: ''
+    position: absolute
+    top: 100%
+    left: 2em
+    height: 0
+    width: 0
+    border: 8px solid transparent
+    border-top-color: #e74c3c
+
+  .cd-testimonials-all .cd-author
+    text-align: left
+    margin-left: 20%
+
+  .cd-testimonials-all .cd-author img
+    box-shadow: 0 0 0 transparent
+    margin-left: 0.85em
+
+
+  .cd-testimonials-all.is-visible
+    visibility: visible
+    opacity: 1
+    transition: opacity .3s 0s, visibility 0s 0s
+
+  .cd-testimonials-all.is-visible .cd-testimonials-all-wrapper
+    -webkit-overflow-scrolling: touch
+
+  .cd-testimonials-all.is-visible .cd-testimonials-item
+    opacity: 1
+    transform: translate3d(0, 0, 0) scale(1)
+
+
+  .close-btn
+    position: fixed
+    display: block
+    width: 50px
+    height: 50px
+    top: 10px
+    right: 20px
+    float: right
+    /* image replacement */
+    overflow: hidden
+    text-indent: 100%
+    white-space: nowrap
+
+  .close-btn::before,
+  .close-btn::after
+    /* close icon in css */
+    content: ''
+    position: absolute
+    display: inline-block
+    width: 2px
+    height: 25px
+    top: 50px
+    right: 80px
+    background-color: #282828
+
+
+  .close-btn:hover::before,
+  .close-btn:hover::after
+    background-color: #e743c3
+
+  .close-btn::before
+    transform: rotate(45deg)
+
+  .close-btn::after
+    transform: rotate(-45deg)
+
+
+    /** client logos **/
+//   #clients
+//     display: block
+//     margin-bottom: 15px
+//
+//
+//   #clients .clients-wrap
+//     width: 55%
+//     margin: 0 auto
+//     overflow: hidden
+//
+//
+//   #clients .clients-wrap ul
+//     display: block
+//     list-style: none
+//     position: relative
+//
+//
+//   #clients .clients-wrap ul li
+//     // display: block
+//     float: left
+//     position: relative
+//     width: 95px
+//     height: 55px
+//     line-height: 55px
+//     text-align: center
+//
+//
+// .clearfix:after
+//   content: "."
+//   display: block
+//   clear: both
+//   visibility: hidden
+//   line-height: 0
+//   height: 0
+//
+// .clearfix
+//   display: inline-block
+//
+// html[xmlns] .clearfix
+//   display: block
+//
+// * html .clearfix
+//   height: 1%
+
+
+@media (max-width: 768px)
+  .shout-outs-col
+    width: 100%
