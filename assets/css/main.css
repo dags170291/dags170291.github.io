@@ -218,6 +218,11 @@ th {
   padding: 0;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+}
+
 body {
   background-color: #eee;
   font-size: 14px;
