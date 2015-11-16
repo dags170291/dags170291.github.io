@@ -1705,13 +1705,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Behance.png": {
+	"\/assets\/images\/behance.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 16104,
-		"inputAbbreviatedPath": "\/assets\/images\/Behance.png",
-		"outputAbbreviatedPath": "\/assets\/images\/Behance.png",
+		"inputAbbreviatedPath": "\/assets\/images\/behance.png",
+		"outputAbbreviatedPath": "\/assets\/images\/behance.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
