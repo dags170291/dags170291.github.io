@@ -1749,13 +1749,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Github.png": {
+	"\/assets\/images\/github.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 16169,
-		"inputAbbreviatedPath": "\/assets\/images\/Github.png",
-		"outputAbbreviatedPath": "\/assets\/images\/Github.png",
+		"inputAbbreviatedPath": "\/assets\/images\/github.png",
+		"outputAbbreviatedPath": "\/assets\/images\/github.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1833,17 +1833,6 @@
 		"initialSize": 2814,
 		"inputAbbreviatedPath": "\/assets\/images\/pinterest.png",
 		"outputAbbreviatedPath": "\/assets\/images\/pinterest.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/profile-photo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30706,
-		"inputAbbreviatedPath": "\/assets\/images\/profile-photo.png",
-		"outputAbbreviatedPath": "\/assets\/images\/profile-photo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1980,13 +1969,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Twitter.PNG": {
+	"\/assets\/images\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2155,
-		"inputAbbreviatedPath": "\/assets\/images\/Twitter.PNG",
-		"outputAbbreviatedPath": "\/assets\/images\/Twitter.PNG",
+		"inputAbbreviatedPath": "\/assets\/images\/twitter.png",
+		"outputAbbreviatedPath": "\/assets\/images\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2386,6 +2375,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/jadefiles\/includes\/footer.jade": {
 		"compileDebug": 1,
