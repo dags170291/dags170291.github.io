@@ -1980,13 +1980,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Twitter.png": {
+	"\/assets\/images\/Twitter.PNG": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 16076,
-		"inputAbbreviatedPath": "\/assets\/images\/Twitter.png",
-		"outputAbbreviatedPath": "\/assets\/images\/Twitter.png",
+		"initialSize": 2155,
+		"inputAbbreviatedPath": "\/assets\/images\/Twitter.PNG",
+		"outputAbbreviatedPath": "\/assets\/images\/Twitter.PNG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2386,15 +2386,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/jadefiles\/includes\/footer.jade": {
 		"compileDebug": 1,
