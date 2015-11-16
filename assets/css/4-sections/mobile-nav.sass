@@ -20,7 +20,7 @@ main
   width: 54px
   border-radius: 50%
   background:
-    color: rgba(241, 196, 15, 0.9) 
+    color: rgba(241, 196, 15, 0.9)
     opacity: 0.6
   /* image replacement */
   overflow: hidden
@@ -38,7 +38,7 @@ main
   transform: translateX(-50%) translateY(-50%)
   width: 22px
   height: 2px
-  background-color: #ffffff
+  background-color: $white
 
 .cd-nav-trigger .cd-nav-icon::before, .cd-nav-trigger .cd-nav-icon:after
   /* upper and lower lines of the menu icon */
@@ -144,7 +144,7 @@ main
   left: 0
   height: 100%
   width: 100%
-  background-color: #243040
+  background-color: $alizarin
   visibility: hidden
   -webkit-transition: visibility 0s 0.7s
   -moz-transition: visibility 0s 0.7s
@@ -201,8 +201,7 @@ main
   margin-top: 0
   font-size: 6em
   font-weight: 800
-  color: $alizarin
-
+  color: $midnightblue
 .cd-nav h2::after
   /* bottom separation line */
   content: ''
@@ -215,7 +214,7 @@ main
 
 .cd-nav .cd-primary-nav
   margin-top: 40px
-  padding-left: 10px
+  padding-left: 0px
 
 .cd-nav .cd-primary-nav li
   margin: 10px
@@ -228,10 +227,10 @@ main
   display: inline-block
 
 .cd-nav .cd-primary-nav a.selected
-  color: #ffffff
+  color: $white
 
 .no-touch .cd-nav .cd-primary-nav a:hover
-  color: #ffffff
+  color: $white
 
 .cd-nav .cd-contact-info
   margin-top: 80px
@@ -242,7 +241,7 @@ main
   color: rgba(255, 255, 255, 0.3)
 
 .cd-nav .cd-contact-info a
-  color: #ffffff
+  color: $white
 
 .cd-nav .cd-contact-info span
   display: block
