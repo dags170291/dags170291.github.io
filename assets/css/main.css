@@ -475,8 +475,9 @@ main {
   top: 20px;
   height: 54px;
   width: 54px;
-  background-color: #f1c40f;
   border-radius: 50%;
+  background-color: rgba(241, 196, 15, 0.9);
+  background-opacity: 0.6;
   /* image replacement */
   overflow: hidden;
   text-indent: 100%;
