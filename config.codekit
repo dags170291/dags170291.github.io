@@ -1705,17 +1705,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/behance.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16104,
-		"inputAbbreviatedPath": "\/assets\/images\/behance.png",
-		"outputAbbreviatedPath": "\/assets\/images\/behance.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/dags-pattern.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1745,17 +1734,6 @@
 		"initialSize": 56926,
 		"inputAbbreviatedPath": "\/assets\/images\/footer.png",
 		"outputAbbreviatedPath": "\/assets\/images\/footer.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/github.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16169,
-		"inputAbbreviatedPath": "\/assets\/images\/github.png",
-		"outputAbbreviatedPath": "\/assets\/images\/github.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1965,17 +1943,6 @@
 		"initialSize": 128989,
 		"inputAbbreviatedPath": "\/assets\/images\/tri-watermark.png",
 		"outputAbbreviatedPath": "\/assets\/images\/tri-watermark.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/twitter.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2155,
-		"inputAbbreviatedPath": "\/assets\/images\/twitter.png",
-		"outputAbbreviatedPath": "\/assets\/images\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
