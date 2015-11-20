@@ -1378,6 +1378,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/2-modules\/mobile-nav.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/2-modules\/mobile-nav.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/mobile-nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/3-layouts\/home.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1442,22 +1458,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/css\/4-sections\/mobile-nav.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/4-sections\/mobile-nav.sass",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/mobile-nav.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
 	"\/assets\/css\/4-sections\/my-work.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1506,6 +1506,31 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/5-pages\/page-notes.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/5-pages\/page-notes.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/page-notes.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/css\/all-notes.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/css\/all-notes.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1530,6 +1555,26 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/assets\/html\/page-notes.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/html\/page-notes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/html\/page-notes.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/html\/page-notes.jade",
+		"outputAbbreviatedPath": "\/assets\/html\/page-notes.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
 		},
 	"\/assets\/images\/1.jpg": {
 		"fileType": 16384,
@@ -2369,7 +2414,7 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2492,9 +2537,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jadefiles\/index.jade",
-		"outputAbbreviatedPath": "\/jadefiles\/index.html",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/README.md": {
@@ -3102,7 +3147,7 @@
 	"markdownProcessHTML": 0,
 	"markdownRandomFootnoteNumbers": 0,
 	"markdownUseCompatibilityMode": 0,
-	"reloadFileURLs": 0,
+	"reloadFileURLs": 1,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",

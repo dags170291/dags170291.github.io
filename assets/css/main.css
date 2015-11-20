@@ -316,25 +316,6 @@ header {
     display: none; }
     header .side-bar {
       display: none; } }
-.home-wrap {
-  display: flex;
-  min-height: 100vh; }
-
-.section-wrap {
-  flex: 1; }
-  .section-wrap section {
-    padding: 30px 0; }
-  .section-wrap .flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
-
-@media (max-width: 768px) {
-  .home-wrap {
-    width: 100%; }
-
-  .section-wrap .flex {
-    display: block; } }
 main {
   position: relative;
   z-index: 4;
@@ -603,6 +584,25 @@ main {
 @media (min-width: 1024px) {
   #mobile-nav {
     visibility: hidden; } }
+.home-wrap {
+  display: flex;
+  min-height: 100vh; }
+
+.section-wrap {
+  flex: 1; }
+  .section-wrap section {
+    padding: 30px 0; }
+  .section-wrap .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
+@media (max-width: 768px) {
+  .home-wrap {
+    width: 100%; }
+
+  .section-wrap .flex {
+    display: block; } }
 .about-col {
   max-width: 350px;
   margin: 0 580px 0 10px; }
@@ -892,20 +892,29 @@ section#notes {
       section#notes .note-wrap .notes-col1 .notes-list,
       section#notes .note-wrap .notes-col2 .notes-list {
         list-style: none;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         padding: 0; }
         section#notes .note-wrap .notes-col1 .notes-list li,
         section#notes .note-wrap .notes-col2 .notes-list li {
-          margin-bottom: 40px; }
+          margin-bottom: 50px; }
           section#notes .note-wrap .notes-col1 .notes-list li a,
           section#notes .note-wrap .notes-col2 .notes-list li a {
             color: #fff;
             font-size: 2em;
             border: 3px solid #fff;
             padding: 10px; }
+        section#notes .note-wrap .notes-col1 .notes-list .all-notes,
+        section#notes .note-wrap .notes-col2 .notes-list .all-notes {
+          border-bottom: 3px solid #fff;
+          padding: 10px;
+          color: #fff; }
         section#notes .note-wrap .notes-col1 .notes-list .notes-col2 a,
         section#notes .note-wrap .notes-col2 .notes-list .notes-col2 a {
           color: #fff; }
+    section#notes .note-wrap .pencil {
+      width: 70px;
+      height: 70px;
+      position: absolute; }
 
 @media (max-width: 768px) {
   section#notes {

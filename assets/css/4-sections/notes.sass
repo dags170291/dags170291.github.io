@@ -16,30 +16,41 @@ section#notes
       width: 50%
 
       h2
-        color: #fff
+        color: $white
         margin: 0
         font-size: 6em
 
+
         .red-text
-          color: #e74c3c
+          color: $alizarin
 
       .notes-list
         list-style: none
-        margin-bottom: 50px
+        margin-bottom: 30px
         padding: 0
 
         li
-          margin-bottom: 40px
+          margin-bottom: 50px
 
           a
             color: $white
             font-size: 2em
-            border: 3px solid #fff
+            border: 3px solid $white
             padding: 10px
 
+        .all-notes
+          border-bottom: 3px solid $white
+          padding: 10px
+          color: $white
 
         .notes-col2 a
           color: $white
+
+    .pencil
+      width: 70px
+      height: 70px
+      position: absolute
+
 
 @media (max-width:768px)
 
@@ -81,5 +92,5 @@ section#notes
             a
               color: $white
               font-size: 1.3em
-              border: 3px solid #fff
+              border: 3px solid $white
               padding: 10px
