@@ -1474,6 +1474,11 @@ section.all-notes-wrapper {
       border-color: #e74c3c;
       -webkit-transition: all 0.6s ease;
       transition: all 0.6s ease; }
+    section.all-notes-wrapper .notes .sunflower:hover {
+      color: #f1c40f;
+      border-color: #f1c40f;
+      -webkit-transition: all 0.6s ease;
+      transition: all 0.6s ease; }
     section.all-notes-wrapper .notes .emerald:hover {
       color: #2ecc71;
       border-color: #2ecc71;
@@ -1544,6 +1549,11 @@ section.all-notes-wrapper {
       border-radius: 5px;
       padding: 5px 10px;
       height: 20px; }
+      .medium-profile .profile a:hover {
+        color: #f1c40f;
+        border-color: #f1c40f;
+        -webkit-transition: all 0.6s ease;
+        transition: all 0.6s ease; }
 
 @media (max-width: 768px) {
   section.all-notes-wrapper .all-notes-col1 {
