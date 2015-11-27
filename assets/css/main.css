@@ -1526,7 +1526,7 @@ section.all-notes-wrapper {
     width: 200px;
     padding: 10px;
     margin: auto; }
-    .medium-profile .profile img {
+    .medium-profile .profile .profile-photo {
       width: 40px;
       height: 40px;
       border-radius: 50%;
