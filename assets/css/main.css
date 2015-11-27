@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto+Mono:400,700,500);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto+Mono:400,500,700);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -1450,7 +1450,8 @@ section.all-notes-wrapper {
     height: 40px; }
   section.all-notes-wrapper .notes-label {
     text-align: center;
-    text-decoration: underline; }
+    font-weight: 700;
+    margin-top: 20px; }
   section.all-notes-wrapper .notes {
     margin: auto;
     padding: 0;
@@ -1459,9 +1460,10 @@ section.all-notes-wrapper {
         -ms-flex-item-align: center;
             align-self: center; }
     section.all-notes-wrapper .notes li {
-      font-size: 3.5em;
+      font-size: 3em;
       line-height: 1.5em;
-      max-width: 375px;
+      font-weight: 400;
+      max-width: 350px;
       padding: 20px;
       margin-bottom: 30px;
       border: #ddd solid 2px; }
@@ -1511,7 +1513,7 @@ section.all-notes-wrapper {
   section.all-notes-wrapper .all-notes-col2 {
     margin: 0 50px; }
   section.all-notes-wrapper .notes-label {
-    margin-top: 10px; }
+    margin-top: 50px; }
   section.all-notes-wrapper .arrow-back {
     width: 25px;
     height: 25px; }
