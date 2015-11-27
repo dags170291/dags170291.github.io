@@ -1509,7 +1509,10 @@ section.all-notes-wrapper {
 
 .medium-profile {
   background-color: #111;
-  padding: 10px; }
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
   .medium-profile .profile {
     display: -webkit-box;
     display: -webkit-flex;
