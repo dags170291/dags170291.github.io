@@ -1844,6 +1844,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/profile-photo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.99923e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/profile-photo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/profile-photo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/quote-reverse.png": {
 		"fileType": 32768,
 		"ignore": 0,
