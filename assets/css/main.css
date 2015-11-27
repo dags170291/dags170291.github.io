@@ -1562,4 +1562,41 @@ section.all-notes-wrapper {
     width: 80px;
     background-size: 12px 12px; }
     section.all-notes-wrapper .notes .read-link:hover {
-      background-size: 12px 12px; } }
+      background-size: 12px 12px; }
+
+  .medium-profile {
+    background-color: #111;
+    padding: 5px;
+    position: relative;
+    width: 100%; }
+    .medium-profile .profile {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      width: 180px;
+      padding: 10px;
+      margin: auto; }
+      .medium-profile .profile .profile-photo {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: #fff solid 1px;
+        margin: auto; }
+      .medium-profile .profile a {
+        margin: auto;
+        font-size: 0.75em;
+        color: #fff;
+        font-weight: 700;
+        border: #fff solid 1px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        height: 18px; } }
